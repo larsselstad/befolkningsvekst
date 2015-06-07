@@ -12,6 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "^10.2.3",
-    "watchify": "^3.2.1"
+    "watchify": "^3.2.1",
+    "es6-promise": "^2.2.0",
+    "whatwg-fetch": "^0.9.0"
   }
 }

@@ -1,5 +1,9 @@
 /*jshint node:true*/
 
+// polyfilling
+require('es6-promise').polyfill();
+require('whatwg-fetch');
+
 var model = require('./model');
 var renderTable = require('./table/table');
 var id = require('./util').id;
