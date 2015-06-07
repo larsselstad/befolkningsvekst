@@ -36,9 +36,7 @@ function dateFormat(timestamp) {
     // timestamp and timezone :-/
     var date = new Date(timestamp);
 
-    return date.getUTCDay() + '.' + 
-        (date.getUTCMonth() + 1) + '.' + // month is zero based
-        date.getUTCFullYear();
+    return date.toLocaleDateString();
 } 
 
 module.exports = {
