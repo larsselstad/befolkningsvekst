@@ -1,0 +1,17 @@
+{
+  "name": "befolkningsvekst",
+  "version": "1.0.0",
+  "description": "Lister ut befolkningsveksten fra SSB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/index.js -d -o build.js",
+    "dev": "watchify js/index.js -d -o build.js"
+  },
+  "author": "Lars Selstad",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^10.2.3",
+    "watchify": "^3.2.1"
+  }
+}
